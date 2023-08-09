@@ -1,2 +1,0 @@
-- name: Dastardly Scan Action
-    uses: PortSwigger/dastardly-github-action@v1.0.0
