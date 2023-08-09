@@ -12,6 +12,8 @@ jobs:
       with:
         node-version: 16
         cache: 'npm'
+    - name: Dastardly Scan Action
+      uses: PortSwigger/dastardly-github-action@v1.0.0
     - name: Get changed files
       id: changed-files
       uses: tj-actions/changed-files@v35
